@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Garden" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- Créer le composant pour le titre par défaut -->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+    <!-- Créer le composant pour le soustitre par défaut -->
+    <style name="SubtitleTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textColor">@color/darkGrey</item>
+    </style>
+    <!-- Créer le composant pour le titre par défaut -->
+    <style name="NameTextStyle" parent="@style/SubtitleTextStyle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Theme.Garden" parent="Base.Theme.Garden" />
+</resources>

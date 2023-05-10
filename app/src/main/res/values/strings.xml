@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Garden</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_plant_selection">Dernières plantes</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Ma collection</string>
+
+    <!-- Page customize -->
+    <string name="item_plant_name">NOM DE LA PLANTE</string>
+    <string name="item_plant_description">DESCRIPTION DE LA PLANTE</string>
+
+    <!-- Page d'ajout de plante -->
+    <string name="add_plant_page_title">Ajout d\'une plante</string>
+    <string name="add_plant_page_upload_button">charger Image</string>
+    <string name="add_plant_page_description_input">@string/item_plant_description</string>
+    <string name="add_plant_page_name_input">@string/item_plant_name</string>
+
+    <string-array name="add_plant_page_grow_spinner_input">
+        <item>Croissance : lente</item>
+        <item>Croissance : Moyenne</item>
+        <item>Croissance : Rapide</item>
+    </string-array>
+    <string-array name="add_plant_page_water_spinner_input">
+        <item>Consommation d\'eau : faible</item>
+        <item>Consommation d\'eau : moyenne</item>
+        <item>Consommation d\'eau : élevée</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Confirmer</string>
+
+    <!-- Popup de details -->
+    <string name="popup_plant_name">@string/item_plant_name</string>
+    <string name="popup_plant_description">Déscription</string>
+    <string name="popup_plant_petite_description">petite descri</string>
+    <string name="popup_plant_grow_title">Croissance</string>
+    <string name="popup_plant_grow_subtitle">Lente</string>
+    <string name="popup_plant_water_title">Consommation d\'eau</string>
+    <string name="popup_plant_water_subtitle">Basse</string>
+</resources>
